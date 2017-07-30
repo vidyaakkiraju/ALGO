@@ -26,7 +26,7 @@ struct count
     
 };
 struct count ans[10];
-void findduplicate(int x)
+void findduplicate(int arr[])
 {
     //int arr[7] = {5,35,17,7,5,35,17};
     
