@@ -1,5 +1,5 @@
 #include <stdio.h>
-void findduplicate(int x);
+void findduplicate(int arr[]);
 int hashfunction(int x,int n);
 int n=7;
 int i,j,ioa;
@@ -8,7 +8,7 @@ void main()
     
     int n=7;
     int arr[7] = {5,35,120,17,5,35,17};
-    findduplicate(arr[n]);
+    findduplicate(arr);
     
 }
 int hashfunction(int x,int n)
@@ -28,7 +28,7 @@ struct count
 struct count ans[10];
 void findduplicate(int x)
 {
-    int arr[7] = {5,35,17,7,5,35,17};
+    //int arr[7] = {5,35,17,7,5,35,17};
     
       int n=5;
       for(i=0;i<10;i++)
