@@ -4,6 +4,7 @@ int hashfunction(int x,int n);
 int n=7;
 int i,j,ioa;
 //chnage made 
+// 2nd change done to file
 void main()
 {
     
