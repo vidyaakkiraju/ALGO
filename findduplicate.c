@@ -3,6 +3,7 @@ void findduplicate(int x);
 int hashfunction(int x,int n);
 int n=7;
 int i,j,ioa;
+//chnage made 
 void main()
 {
     
